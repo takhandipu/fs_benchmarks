@@ -1,0 +1,29 @@
+Phoenix Project
+Linear Regression Example Application Readme
+Last revised 15th April 2007
+
+
+1. Application Overview
+-----------------------
+
+The linear regression application generates the summary statistics of points to 
+give the linear approximation of all of the points. It reads the x-y coordinates
+sequentially from the specified file.
+
+
+2. Provided Files
+-----------------
+
+linear_regression_pthread.c: The pthread version of the application
+stddefines.h: Contains declarations of commonly used functions and constants
+datafiles/key_file*.txt: Files of various sizes that contain input coordinates
+README: This file
+
+
+3. Running the Application
+--------------------------
+
+run 'clang linear_regression_pthread.c -lpthread -o lreg-pthread' to compile the pthread version of the application. Then, run the following command to run the program
+
+./lreg-pthread <file-name>
+
