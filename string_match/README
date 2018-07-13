@@ -1,0 +1,32 @@
+Phoenix Project
+String Match Example Application Readme
+Last revised 15th April 2007
+
+
+1. Application Overview
+-----------------------
+
+String Match application scrolls through a list of keys (provided in a file)
+in order to determine if any of them occur in a list of encrypted words (which 
+are hardcoded into the application).
+
+
+2. Provided Files
+-----------------
+
+string_match_pthreads.c: The pthread version of the application
+stddefines.h: Contains declarations of commonly used functions and constants
+datafiles/key_file_*.txt: Key files of various sizes containing the list of words
+MapReduceScheduler.h: The MapReduce header used by the pthread application
+README: This file
+
+
+3. Running the Application
+--------------------------
+
+run 'clang string_match_pthreads.c -lpthread -o string_match_pthreads' to compile the pthread version of the application. 
+
+
+./string_match_pthreads <keys filename> - pthreads version
+<keys filename>: Specifies the file containing the list of encrypted words
+
