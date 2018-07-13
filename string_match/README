@@ -16,7 +16,7 @@ are hardcoded into the application).
 
 string_match_pthreads.c: The pthread version of the application
 stddefines.h: Contains declarations of commonly used functions and constants
-datafiles/key_file_*.txt: Key files of various sizes containing the list of words
+datafiles/key_file_*.txt: Key files of various sizes containing the list of words, Download files from [here](http://csl.stanford.edu/~christos/data/string_match.tar.gz)
 MapReduceScheduler.h: The MapReduce header used by the pthread application
 README: This file
 

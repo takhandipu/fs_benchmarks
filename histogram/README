@@ -15,8 +15,7 @@ in the red, green and blue channels of a bitmap picture.
 
 hist-pthread.c: The pthread version of the application
 stddefines.h: Contains declarations of commonly used functions and constants
-datafiles/*.bmp: Sample bitmap files of varying sizes that can be used as 
-                 input to this application
+datafiles/*.bmp: Sample bitmap files of varying sizes that can be used as input to this application. Download the images from [here](http://csl.stanford.edu/~christos/data/histogram.tar.gz)
 README: This file
 
 

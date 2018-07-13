@@ -16,7 +16,7 @@ sequentially from the specified file.
 
 linear_regression_pthread.c: The pthread version of the application
 stddefines.h: Contains declarations of commonly used functions and constants
-datafiles/key_file*.txt: Files of various sizes that contain input coordinates
+datafiles/key_file*.txt: Files of various sizes that contain input coordinates. Download the key files from [here](http://csl.stanford.edu/~christos/data/linear_regression.tar.gz)
 README: This file
 
 
