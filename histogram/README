@@ -22,7 +22,7 @@ README: This file
 3. Running the Application
 --------------------------
 
-run 'clang hist-pthread.c -lpthread -o hist-pthread' to compile the pthread version of the application. Then, to execute the program run the following command, 
+run 'clang -O3 hist-pthread.c -lpthread -o hist-pthread' to compile the pthread version of the application. Then, to execute the program run the following command, 
 
 ./hist-pthread <image-name>
 
